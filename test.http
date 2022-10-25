@@ -1,0 +1,14 @@
+POST http://localhost:3001/api/log
+Content-Type: application/json
+
+{
+    "name": "Test",
+    "site": "testsite.com",
+    "time": "15:00AM GMT+12"
+}
+
+###
+GET http://localhost:3001/api/logs
+
+###
+GET http://localhost:3001/api/Test
